@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/github/spec-kit/actions/workflows/release.yml"><img src="https://github.com/github/spec-kit/actions/workflows/release.yml/badge.svg" alt="Release"/></a>
-    <a href="https://github.com/github/spec-kit/stargazers"><img src="https://img.shields.io/github/stars/github/spec-kit?style=social" alt="GitHub stars"/></a>
-    <a href="https://github.com/github/spec-kit/blob/main/LICENSE"><img src="https://img.shields.io/github/license/github/spec-kit" alt="License"/></a>
+    <a href="https://github.com/bytectlgo/spec-kit/actions/workflows/release.yml"><img src="https://github.com/bytectlgo/spec-kit/actions/workflows/release.yml/badge.svg" alt="Release"/></a>
+    <a href="https://github.com/bytectlgo/spec-kit/stargazers"><img src="https://img.shields.io/github/stars/bytectlgo/spec-kit?style=social" alt="GitHub stars"/></a>
+    <a href="https://github.com/bytectlgo/spec-kit/blob/main/LICENSE"><img src="https://img.shields.io/github/license/bytectlgo/spec-kit" alt="License"/></a>
     <a href="https://github.github.io/spec-kit/"><img src="https://img.shields.io/badge/docs-GitHub_Pages-blue" alt="Documentation"/></a>
 </p>
 
@@ -51,7 +51,7 @@
 一次安装，到处使用：
 
 ```bash
-uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
+uv tool install specify-cli --from git+https://github.com/bytectlgo/spec-kit.git
 ```
 
 然后直接使用工具：
@@ -64,7 +64,7 @@ specify check
 升级 specify 运行：
 
 ```bash
-uv tool install specify-cli --force --from git+https://github.com/github/spec-kit.git
+uv tool install specify-cli --force --from git+https://github.com/bytectlgo/spec-kit.git
 ```
 
 #### 选项 2：一次性使用
@@ -72,7 +72,7 @@ uv tool install specify-cli --force --from git+https://github.com/github/spec-ki
 直接运行而无需安装：
 
 ```bash
-uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME>
+uvx --from git+https://github.com/bytectlgo/spec-kit.git specify init <PROJECT_NAME>
 ```
 
 **持久安装的好处：**
@@ -611,7 +611,7 @@ rm gcm-linux_amd64.2.6.1.deb
 
 ## 💬 支持
 
-如需支持，请提交 [GitHub issue](https://github.com/github/spec-kit/issues/new)。我们欢迎错误报告、功能请求和关于使用规范驱动开发的问题。
+如需支持，请提交 [GitHub issue](https://github.com/bytectlgo/spec-kit/issues/new)。我们欢迎错误报告、功能请求和关于使用规范驱动开发的问题。
 
 ## 🙏 致谢
 

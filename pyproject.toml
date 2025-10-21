@@ -1,0 +1,23 @@
+[project]
+name = "specify-cli"
+version = "0.0.20"
+description = "Specify CLI，GitHub Spec Kit 的一部分。一个用于规范驱动开发（SDD）的项目引导工具。"
+requires-python = ">=3.11"
+dependencies = [
+    "typer",
+    "rich",
+    "httpx[socks]",
+    "platformdirs",
+    "readchar",
+    "truststore>=0.10.4",
+]
+
+[project.scripts]
+specify = "specify_cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/specify_cli"]
